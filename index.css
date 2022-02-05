@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.strike-through{
+    text-decoration: line-through;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#input-task {
+    width: 80vw;
+    height: 4vh;
+    font-size: 24px;
+    background-color: aliceblue;
+    border-style: none none solid none;
+    border-bottom-color: salmon;
+}
+
+#input-task:focus, #input-task:active {
+    border-style: none none solid none;
+    border-bottom-color: #FFA07A;
+}
+
+#add-task-button {
+    height: 4vh;
+    margin: auto;
+    background-color: salmon;
+    border: none;
+}
+
+#add-task-button:hover, .delete-btn:hover {
+    background-color: #FFA07A;
+}
+
+#add-task-button:active, .delete-btn:active {
+    background-color: salmon;
+}
+
+li {
+    margin: 10px 0;
+    text-align: left;
+    height: 4vh;
+    vertical-align: middle;
+}
+
+.delete-btn {
+    float: right;
+    height: 4vh;
+    width: 4vh;
+    border-radius: 50%;
+    font-size: 3vh;
+    background-color: salmon;
+    border: none;
+}
+
+.task {
+    font-size: 24px;
+    padding: 5px;
+    float: left;
+}
+
+.checkBox {
+    float: left;
+    width: 3vh;
+    height: 3vh;
+}
